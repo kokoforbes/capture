@@ -1,26 +1,27 @@
 import React from "react";
 import home1 from "../img/home1.png";
 import { About, Description, Hide, Image } from "../styles";
+import { motion } from "framer-motion";
 
 function AboutSection() {
   return (
     <About>
       <Description>
-        <div className='title'>
+        <motion.div className='title'>
           <Hide>
-            <h2>we work to make</h2>
+            <motion.h2>we work to make</motion.h2>
           </Hide>
 
           <Hide>
-            <h2>
+            <motion.h2>
               your <span>dreams</span>
-            </h2>
+            </motion.h2>
           </Hide>
 
           <Hide>
-            <h2>come true.</h2>
+            <motion.h2>come true.</motion.h2>
           </Hide>
-        </div>
+        </motion.div>
 
         <p>
           Contact us for any photography or videography ideas that you have. We
